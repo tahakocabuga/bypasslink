@@ -1,0 +1,25 @@
+{
+  "name": "bypasslink",
+  "version": "1.0.1",
+  "description": "Both CLI and package for bypassing shortened links.",
+  "main": "index.js",
+  "bin": {
+    "bypass": "./src/bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tahakocabuga/bypasslink.git"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "chalk": "^4.0.0",
+    "figlet": "^1.5.2",
+    "yargs": "^17.6.2"
+  }
+}
